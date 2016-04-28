@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--DAD-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController storyboardIdentifier="DAD" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9pv-A4-QxB" customClass="DAD" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rrf-hB-Lf7">
+                                <rect key="frame" x="0.0" y="507" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="FLIP" id="I6J-Th-3p5">
+                                        <connections>
+                                            <action selector="switchViews:" destination="9pv-A4-QxB" id="wM9-At-kLF"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="A Dad Joke" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
+                                <rect key="frame" x="208" y="20" width="185" height="42"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="Rrf-hB-Lf7" secondAttribute="bottom" id="63B-Iu-dNg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Rrf-hB-Lf7" secondAttribute="trailing" constant="-20" id="6QV-zM-JOR"/>
+                            <constraint firstItem="KQZ-1w-vlD" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="X0G-yC-GbR"/>
+                            <constraint firstItem="Rrf-hB-Lf7" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="-20" id="YcQ-sq-9NE"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="DAD" image="second" id="acW-dT-cKf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="792" y="-739"/>
+        </scene>
+        <!--DAD_A-->
+        <scene sceneID="7Tb-GL-y2o">
+            <objects>
+                <viewController storyboardIdentifier="DAD_A" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lHe-ka-Pxa" customClass="DAD_A" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mST-QY-d7I"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zf4-R3-IUu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dzD-oB-pGC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="He won the 'no-bell' prize!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7A-Ix-BTN">
+                                <rect key="frame" x="200" y="290" width="201" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Y7A-Ix-BTN" firstAttribute="centerX" secondItem="dzD-oB-pGC" secondAttribute="centerX" id="6bl-lb-3qO"/>
+                            <constraint firstItem="Y7A-Ix-BTN" firstAttribute="centerY" secondItem="dzD-oB-pGC" secondAttribute="centerY" id="jFU-2Y-YXj"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Lw-1Q-qM2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1426" y="-272"/>
+        </scene>
+        <!--DAD_Q-->
+        <scene sceneID="1yu-X7-7Hn">
+            <objects>
+                <viewController storyboardIdentifier="DAD_Q" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qdu-hE-vBZ" customClass="DAD_Q" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="chl-AN-dxF"/>
+                        <viewControllerLayoutGuide type="bottom" id="MBX-gR-ne4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cTB-1J-eiW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you hear about the guy who invented the knock-knock joke?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSB-hK-fL9">
+                                <rect key="frame" x="55" y="289" width="490" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="CSB-hK-fL9" secondAttribute="trailing" constant="35" id="5T1-cI-nZ7"/>
+                            <constraint firstItem="CSB-hK-fL9" firstAttribute="centerX" secondItem="cTB-1J-eiW" secondAttribute="centerX" id="Njm-jm-5Wa"/>
+                            <constraint firstItem="CSB-hK-fL9" firstAttribute="leading" secondItem="cTB-1J-eiW" secondAttribute="leadingMargin" constant="35" id="bp2-6D-ncB"/>
+                            <constraint firstItem="CSB-hK-fL9" firstAttribute="centerY" secondItem="cTB-1J-eiW" secondAttribute="centerY" id="fCb-bR-xnv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L2G-uO-kYE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1426" y="-935"/>
+        </scene>
+        <!--GOOD-->
+        <scene sceneID="RdR-s3-srQ">
+            <objects>
+                <viewController storyboardIdentifier="GOOD" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dNd-7n-8ee" customClass="GOOD" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1NG-v2-Cdj"/>
+                        <viewControllerLayoutGuide type="bottom" id="xLP-Ec-9rJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="06c-Mo-UbQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1JO-5b-RDH">
+                                <rect key="frame" x="0.0" y="507" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="FLIP" id="1pY-vo-FoF">
+                                        <connections>
+                                            <action selector="switchViews:" destination="dNd-7n-8ee" id="nV9-c1-dxi"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A GOOD Joke" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dot-eV-hGL">
+                                <rect key="frame" x="158" y="20" width="285" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xLP-Ec-9rJ" firstAttribute="top" secondItem="1JO-5b-RDH" secondAttribute="bottom" id="8t2-Hn-2pv"/>
+                            <constraint firstItem="Dot-eV-hGL" firstAttribute="top" secondItem="1NG-v2-Cdj" secondAttribute="bottom" id="RJW-Ub-zW2"/>
+                            <constraint firstItem="1JO-5b-RDH" firstAttribute="leading" secondItem="06c-Mo-UbQ" secondAttribute="leadingMargin" constant="-20" id="cse-qN-7Z1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1JO-5b-RDH" secondAttribute="trailing" constant="-20" id="weJ-cb-c4u"/>
+                            <constraint firstItem="Dot-eV-hGL" firstAttribute="centerX" secondItem="06c-Mo-UbQ" secondAttribute="centerX" id="zNe-j9-bGN"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="GOOD" image="second" id="64f-df-A71"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Na0-JX-fq9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-830" y="760"/>
+        </scene>
+        <!--GOOD_A-->
+        <scene sceneID="zCA-Gh-Ixe">
+            <objects>
+                <viewController storyboardIdentifier="GOOD_A" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0u9-Is-cL1" customClass="GOOD_A" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tZs-9A-i1w"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rgn-wX-RFO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J3c-8c-NcM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wipes his butt" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZp-bE-mBp">
+                                <rect key="frame" x="92" y="91" width="416" height="218"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aZp-bE-mBp" firstAttribute="centerY" secondItem="J3c-8c-NcM" secondAttribute="centerY" id="UTG-u9-e2g"/>
+                            <constraint firstItem="aZp-bE-mBp" firstAttribute="centerX" secondItem="J3c-8c-NcM" secondAttribute="centerX" id="xlF-96-uYc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2sZ-T7-ddQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-822" y="1480"/>
+        </scene>
+        <!--GOOD_Q-->
+        <scene sceneID="qW1-aP-wFx">
+            <objects>
+                <viewController storyboardIdentifier="GOOD_Q" useStoryboardIdentifierAsRestorationIdentifier="YES" id="t13-Xy-C1d" customClass="GOOD_Q" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1LF-Mt-MV1"/>
+                        <viewControllerLayoutGuide type="bottom" id="3eT-ks-eXX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nft-OV-Afx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="What does a cannibal do after dumping his girlfriend?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wcs-aq-LzU">
+                                <rect key="frame" x="79" y="273" width="442" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wcs-aq-LzU" firstAttribute="centerX" secondItem="nft-OV-Afx" secondAttribute="centerX" id="8B0-eo-hOA"/>
+                            <constraint firstItem="Wcs-aq-LzU" firstAttribute="top" secondItem="1LF-Mt-MV1" secondAttribute="bottom" constant="253" id="GZR-Ad-sJ3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wcs-aq-LzU" secondAttribute="trailing" constant="59" id="X4O-HC-ZjH"/>
+                            <constraint firstItem="Wcs-aq-LzU" firstAttribute="leading" secondItem="nft-OV-Afx" secondAttribute="leadingMargin" constant="59" id="n2d-ay-Glt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uKg-eA-SOO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-166" y="1027"/>
+        </scene>
+        <!--PUN-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController storyboardIdentifier="PUN" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8rJ-Kc-sve" customClass="PUN" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iT1-he-Efk">
+                                <rect key="frame" x="0.0" y="507" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="FLIP" id="P0B-5M-MfL">
+                                        <connections>
+                                            <action selector="switchViews:" destination="8rJ-Kc-sve" id="Oe2-mT-WJM"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="A Punny Joke" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
+                                <rect key="frame" x="113" y="20" width="375" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zEq-FU-wV5" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="IYQ-5x-For"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="iT1-he-Efk" secondAttribute="bottom" id="Kng-tB-bFo"/>
+                            <constraint firstItem="iT1-he-Efk" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="-20" id="hdX-Dv-3bH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iT1-he-Efk" secondAttribute="trailing" constant="-20" id="zBt-iQ-HQ6"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="PUN" image="second" id="cPa-gy-q4n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="716" y="708"/>
+        </scene>
+        <!--PUN_Q-->
+        <scene sceneID="OAc-Rk-ha5">
+            <objects>
+                <viewController storyboardIdentifier="PUN_Q" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3j1-7C-zbT" customClass="PUN_Q" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rNU-pl-RGi"/>
+                        <viewControllerLayoutGuide type="bottom" id="tUT-mx-xz2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="x1o-di-Pxc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where did George Washington keep his armies?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhc-Um-CaX">
+                                <rect key="frame" x="117" y="289" width="367" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mhc-Um-CaX" firstAttribute="centerX" secondItem="x1o-di-Pxc" secondAttribute="centerX" id="5ea-7Y-7Xv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mhc-Um-CaX" secondAttribute="trailing" constant="96" id="60M-3Z-7Aj"/>
+                            <constraint firstItem="Mhc-Um-CaX" firstAttribute="leading" secondItem="x1o-di-Pxc" secondAttribute="leadingMargin" constant="97" id="C6V-bG-tlT"/>
+                            <constraint firstItem="Mhc-Um-CaX" firstAttribute="centerY" secondItem="x1o-di-Pxc" secondAttribute="centerY" id="E80-HS-36m"/>
+                            <constraint firstItem="Mhc-Um-CaX" firstAttribute="top" secondItem="rNU-pl-RGi" secondAttribute="bottom" constant="120" id="M7z-Da-IPe"/>
+                            <constraint firstItem="Mhc-Um-CaX" firstAttribute="centerX" secondItem="x1o-di-Pxc" secondAttribute="centerX" id="O6G-mm-wUG"/>
+                            <constraint firstItem="Mhc-Um-CaX" firstAttribute="centerY" secondItem="x1o-di-Pxc" secondAttribute="centerY" id="TX8-wq-u1q"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="M7z-Da-IPe"/>
+                                <exclude reference="O6G-mm-wUG"/>
+                                <exclude reference="TX8-wq-u1q"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="67M-RB-zkV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1459" y="675"/>
+        </scene>
+        <!--PUN_A-->
+        <scene sceneID="Ahj-dF-t8p">
+            <objects>
+                <viewController storyboardIdentifier="PUN_A" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ac4-jI-3Fo" customClass="PUN_A" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iLx-r7-JrF"/>
+                        <viewControllerLayoutGuide type="bottom" id="iaT-2p-Oxe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aym-sa-cQF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="In his sleevies!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etR-Hn-9IZ">
+                                <rect key="frame" x="86" y="194" width="429" height="107"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="etR-Hn-9IZ" firstAttribute="centerX" secondItem="aym-sa-cQF" secondAttribute="centerX" id="3G2-vP-bGe"/>
+                            <constraint firstItem="etR-Hn-9IZ" firstAttribute="centerY" secondItem="aym-sa-cQF" secondAttribute="centerY" id="NTn-8M-tt2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6z8-Xu-ZLp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1459" y="1395"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="dNd-7n-8ee" kind="relationship" relationship="viewControllers" id="ZYP-dP-hZH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-330" y="-418"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>
